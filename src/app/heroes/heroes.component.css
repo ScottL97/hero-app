@@ -1,0 +1,5 @@
+.selected {
+    background: lightblue;
+    border: white solid 2px;
+    border-radius: 15px;
+}

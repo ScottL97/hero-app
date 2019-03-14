@@ -1,0 +1,9 @@
+<div *ngIf="messageService.messages.length" class="p-2">
+  <hr />
+  <div *ngFor='let message of messageService.messages' class="text-center">
+    <span class="font-weight-bold">{{message}}</span>
+  </div>
+  <div class="text-right">
+    <button class="btn btn-info mx-2" (click)="messageService.clear()">clear</button>
+  </div>
+</div>
